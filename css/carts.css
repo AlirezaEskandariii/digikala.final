@@ -1,0 +1,18 @@
+.carts {
+  width: 133.6rem;
+  height: 30rem;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  perspective: 800px;
+
+  .cart {
+    width: calc(128.6rem/4);
+    img {
+      transition: all 300ms;
+      width: inherit;
+      display: inline-block;
+      border-radius: 1rem;
+    }
+  }
+}

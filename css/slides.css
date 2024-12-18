@@ -1,0 +1,17 @@
+.slides {
+  width: 133.6rem;
+  height: 28rem;
+  display: flex;
+  margin: 1rem auto;
+  justify-content: space-between;
+
+  .slide {
+    width: calc(131.6rem/2);
+    img {
+      transition: all 300ms;
+      width: inherit;
+      display: inline-block;
+      border-radius: 1rem;
+    }
+  }
+}
